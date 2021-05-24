@@ -9,18 +9,18 @@ window.onload = function() {
     let non = ["jogger", "racoon"]; //k
     let dom = [".com", ".net", ".es"]; //l
 
-    let asdf = "";
+    let Domains = "";
 
     for (var i = 0; i < pro.length; i++) {
       for (var j = 0; j < adj.length; j++) {
         for (var k = 0; k < non.length; k++) {
           for (var l = 0; l < dom.length; l++) {
-            asdf =
-              asdf + ("<li>" + pro[i] + adj[j] + non[k] + dom[l] + "</li>");
+            Domains =
+              Domains + ("<li>" + pro[i] + adj[j] + non[k] + dom[l] + "</li>");
           }
         }
       }
     }
-    return asdf;
+    return Domains;
   }
 };
